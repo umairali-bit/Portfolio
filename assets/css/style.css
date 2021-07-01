@@ -81,9 +81,10 @@ a{
 }
 .subtitles img{
     
-    margin-right: 40px;
+    margin-right: 50px;
     margin-left: 5px;
     height: 200px;
+   
     
 }
 .intro{
@@ -99,13 +100,13 @@ a{
 }
 .vertical-sec{
     
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 30%;
     font-size: 40px;
     padding-right: 20px;
     padding-left: 20px;
     border-right: 6px solid rgb(128, 0, 128);
-    height: 200px;
+    height: 250px;
     flex: 0 0 20%;
     text-align: right;
     
@@ -113,16 +114,34 @@ a{
 
 
 .content p{
-    width: 500px;
+    width: 700px;
+    padding-left: 150px;
     
     margin-bottom: 20px;
     font-size: 25px;
     position: relative;
     left: 400px;
-    top: -190px;
+    top: -250px;
     font-size: 15px;
-    line-height: 1.9;
+    line-height: 3;
+   
+}
+.containers{
+    flex: 0 0 20%;
     
+
+}
+.vertical-secs{
+    float: left;
+    border-right: 6px solid rgb(128, 0, 128);
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 23%;
+    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    top:-20%;
 }
 
   
