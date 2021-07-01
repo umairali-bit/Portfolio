@@ -1,59 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body{
    
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  flex-wrap: wrap;
+font-family: Helvetica, Arial, Helvetica, sans-serif;
+background-color: #dbbaba;
 }
 
 header{
-    display: inline-flex;
+    padding: 20px 35px;
+    background-color: #3a3636;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 999;
-    position:fixed;
-    top: 0px;
-    height: 100px;
-    background-color: #313030;
-    opacity: 0.9;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    /* used to make sticky work on older versions of safari and chrome */
+    position: -webkit-sticky;
     width: 100%;
-    flex-wrap: wrap;
 }
-
 header h1{
-    margin-top: 15px;
-    background-color: #5a7899;
-    padding: 10px 5px 15px 100px;
-    
-    
+    font-weight: bold;
+    font-size: 40px;
+    color:#3a3636;
+    background-color:aqua;
+    padding: 20px 20px 20px 100px;
+    margin-left: -50px;
 }
 
-nav{
-    display:inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 500px;
-    flex-wrap: wrap;
-    
-
-}
-nav ul li{
-    display:inline-flex;
-    justify-content: space-around;
-    margin-right: 20px;
-    color: #5a7899;
-    flex-wrap: wrap;
-    
-}
-nav ul li a {
-    color: #5a7899;
-    text-decoration:line;
-    font-size: large;
-    
-}
 
 
