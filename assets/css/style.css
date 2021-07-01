@@ -30,6 +30,132 @@ header h1{
     padding: 20px 20px 20px 100px;
     margin-left: -50px;
 }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+header nav ul{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+a{
+    padding: 15px 15px;
+    font-weight: bolder;
+    color: aqua;
+    flex-wrap: wrap;
+}
+.subtitle{
+    height: 300px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/computer-science-background.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+   
+}
+.subtitles img{
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 200px;
+    
+}
+
+.subtitle-h4{
+    background-color: black;
+	width: 80%;
+	height: 120px;
+	opacity: 1;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	color: #C4BDB8;
+    position:relative;
+    right: 10px;
+    left: -50px;
+    padding: 20px 20px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+
+
+header{
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  .subtitle{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 100px;
+      
+      
+
+  }
+  .subtitle-h4 {
+      
+      margin-top: 0;
+      
+      width:200%;
+     
+     margin-right: -50px;
+     padding:auto;
+     margin-left: 30px;
+     line-height: 2;
+
+}
+  .subtitle img{
+      height: 180px;
+      position:relative;
+      left: -400px;
+      top: 0px;
+      bottom: -10px;
+      
+      
+  }
+
+
+
+
+}
 
