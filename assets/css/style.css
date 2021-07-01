@@ -21,6 +21,7 @@ header{
     /* used to make sticky work on older versions of safari and chrome */
     position: -webkit-sticky;
     width: 100%;
+    z-index: 9999;
 }
 header h1{
     font-weight: bold;
@@ -85,6 +86,73 @@ a{
     height: 200px;
     
 }
+.intro{
+    
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+.vertical-sec{
+    
+    margin-top: 50px;
+    margin-left: 30%;
+    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 6px solid rgb(128, 0, 128);
+    height: 200px;
+    flex: 0 0 20%;
+    text-align: right;
+    
+}
+
+
+.content p{
+    width: 500px;
+    
+    margin-bottom: 20px;
+    font-size: 25px;
+    position: relative;
+    left: 400px;
+    top: -190px;
+    font-size: 15px;
+    line-height: 1.9;
+    
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
