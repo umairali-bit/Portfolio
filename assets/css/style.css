@@ -61,14 +61,6 @@ a{
     
    
 }
-.subtitles img{
-    
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 200px;
-    
-}
-
 .subtitle-h4{
     background-color: black;
 	width: 80%;
@@ -80,12 +72,21 @@ a{
 	color: #C4BDB8;
     position:relative;
     right: 10px;
-    left: -50px;
-    padding: 20px 20px;
+    left: -100px;
+    padding: 20px 30px;
     line-height: 1.5;
     flex-wrap: wrap;
     
 }
+.subtitles img{
+    
+    margin-right: 40px;
+    margin-left: 5px;
+    height: 200px;
+    
+}
+
+
 
 
 
@@ -105,8 +106,6 @@ a{
 
 
 @media screen and (max-width: 980px){
-
-
 header{
     padding-bottom: 0;
     justify-content: center;
@@ -125,37 +124,26 @@ header{
     font-size: 20px;
   }
   .subtitle{
-      width: 100%;
-      text-align: center;
-      margin-bottom: 100px;
-      
-      
-
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px; 
   }
   .subtitle-h4 {
-      
-      margin-top: 0;
-      
-      width:200%;
-     
-     margin-right: -50px;
-     padding:auto;
-     margin-left: 30px;
-     line-height: 2;
+    margin-top: 0;
+    width:200%;
+    margin-right: -50px;
+    padding:auto;
+    margin-left: 30px;
+    line-height: 2;
 
-}
+ }
   .subtitle img{
-      height: 180px;
-      position:relative;
-      left: -400px;
-      top: 0px;
-      bottom: -10px;
-      
-      
-  }
-
-
-
+    height: 180px;
+    position:relative;
+    left: -400px;
+    top: 0px;
+    bottom: -10px;
+ }
 
 }
 
