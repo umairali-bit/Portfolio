@@ -230,6 +230,72 @@ text-decoration: none;
 
 
 
+@media screen and (max-width:980px) {
+  header{
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+  }
+  header h1{
+    margin-top: auto;
+    width:100%;
+    text-align: center;
+    
+  }
+  header nav{
+   justify-content: center;
+   padding: 20px 0 25px 0;
+  }
+  .vertical-headings h2{
+    text-align: left;
+    border-right: none;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+  .contactme{
+    padding:auto;
+  }
+  address{
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    header{
+      width:120%;
+    }
+    header h1{
+      text-align: left;
+    }
+    nav{
+      width: 100%;
+    }
+    nav ul{
+      padding-right: 90px;;
+    }
+    .subtitle{
+      width: 110%;
+      
+    }
+    .subtitle img{
+      padding-left: 20px;
+    }
+    .contactme{
+      width: 1500px;
+    }
+    .contactme a{
+      padding: 60px;
+
+    }
+
+    
+  
+
+
+
+
 
 
 
