@@ -259,6 +259,7 @@ text-decoration: none;
   address{
     margin-top: 40px;
   }
+}
 
   @media screen and (max-width: 768px) {
     
@@ -289,7 +290,7 @@ text-decoration: none;
 
     }
   }
-}
+
     /* @media screen styling ends */
 
     
