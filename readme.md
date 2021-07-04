@@ -1,6 +1,6 @@
 # **Portfolio**
 
-[Click me]("https://umairali-bit.github.io/Portfolio/")
+[visit my portfolio](https://umairali-bit.github.io/Portfolio/"Portfolio")
 
 ## Description
 
