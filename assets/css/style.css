@@ -1,14 +1,14 @@
+/* setting default settings to zero */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  /* background color of the page */
   body{
     background-color: darkgray;
   }
- 
-
-
+/* header styling starts */
 header{
   width:100%;
   padding-bottom: 20px;
@@ -60,6 +60,9 @@ header h1:hover{
   text-decoration: underline;
 
 }
+/* header styling ends */
+
+/* subtitle styling starts */
 .subtitle{
   background-color: black;
   width:100%;
@@ -86,6 +89,10 @@ header h1:hover{
   line-height: 2;
   text-align: center;
 }
+/* subtitle styling ends */
+
+/* main content styling starts */
+
 .wrapper{
   display:flex;
   flex-flow: row wrap;
@@ -116,21 +123,16 @@ header h1:hover{
   color:aquamarine;
   
 }
-
 .vertical-headings div{
   flex: 0 0 70%;
 }
-
-
 .paragraph{
   margin-top:70px;
   padding-right: -50px;
   text-align: start;
   line-height: 2;
   margin-right:80px;
-
 }
-
 .containers{
   margin-top: 50px;
   display: flex;
@@ -140,11 +142,8 @@ header h1:hover{
   margin-left: 120px;
   margin-right: 20px;
   
-  
-  
 }
-.flexwork{
-  
+.container{
   border: 5px solid black;
   min-height: 150px;
   height: 300px;
@@ -160,43 +159,42 @@ header h1:hover{
   background-repeat: no-repeat;
   
 }
-.flexwork:first-child {
+.container:first-child {
   min-height: 420px;
   flex-basis: 100%;
   background-color: skyblue;
 }
-.flexwork:nth-child(2){
+.container:nth-child(2){
   background-color: beige;
 }
-.flexwork:nth-child(3){
+.container:nth-child(3){
   background-color:bisque;
 }
-.flexwork:nth-child(4){
+.container:nth-child(4){
   background-color:aliceblue;
 }
-.flexwork:nth-child(5){
+.container:nth-child(5){
   background-color:antiquewhite;
 }
-span {
+.small-text {
   text-decoration: none;
   color: black;
 }
 
-.flexwork h3 {
+.container h3 {
   font-size: 2rem;
   text-decoration: none;
   color: black;
 }
 
-.flexwork .projnames {
+.container .title {
   padding: 5px 8px;
   background-color: darkgray;
 }
-.flexwork:hover{
+.container:hover{
   
     background-color: red;
     color: yellow;
-    
   
 }
 .runbuddy{
@@ -227,8 +225,9 @@ color: yellow;
 text-decoration: none;
   
 }
+/* main body stlying ends */
 
-
+/* @media screen styling starts */
 
 @media screen and (max-width:980px) {
   header{
@@ -289,6 +288,7 @@ text-decoration: none;
       padding: 60px;
 
     }
+    /* @media screen styling ends */
 
     
   
