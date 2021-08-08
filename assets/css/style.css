@@ -198,6 +198,9 @@ header h1:hover{
     color: yellow;
   
 }
+.project1{
+  background-image: url(../images/p1.png);
+}
 .runbuddy{
   background-image: url(../images/Screen\ Shot\ 2021-07-03\ at\ 2.08.17\ PM.png);
 }
