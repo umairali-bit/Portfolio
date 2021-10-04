@@ -198,6 +198,9 @@ header h1:hover{
     color: yellow;
   
 }
+.calculator{
+  background-image: url(../images/spot.png) ;
+}
 .project1{
   background-image: url(../images/p1.png);
 }
